@@ -24,6 +24,7 @@ Usage
 `org-photos [-h] [-w] directory`
 
 `directory` type directory to organize
+
 `-w` request warnings
 
 Example:
