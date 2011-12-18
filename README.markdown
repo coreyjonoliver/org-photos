@@ -4,7 +4,7 @@ Corey Oliver, 2010-2011
 
 This tool allows for the organization of a directory of images into a
 year-month-day directory hierarchy based on the meta-data of each
-photo. Non-image files or images files containing no DateTime
+image. Non-image files or images files containing no DateTime
 attribute are ignored.
 
 Requirements
@@ -23,17 +23,17 @@ Usage
 
 `org-photos [-h] [-w] directory`
 
-`directory` type directory to organize
+`directory` the directory to organize
 
 `-w` request warnings
 
 Example:
 
-If the meta-data for a photo in the directory `foo` contains a
-DateTime attribute of "1-30-2010". Upon running `org-photos foo` the
-following directory structure is created in the `foo` directory (if it
-does not already exist): `2010/1/30`. The photo is then copied into
-the directory `2010/1/30`.
+If the meta-data for a image in the directory `foo` contains a
+DateTime attribute of "1-30-2010", then upon running `org-photos foo`
+the following directory structure is created in the `foo` directory
+(if it does not already exist): `2010/1/30`. The image is then copied
+into the directory `2010/1/30`.
 
 License
 -------
