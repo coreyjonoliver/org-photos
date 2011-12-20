@@ -21,7 +21,7 @@ Requirements
 Usage
 -----
 
-`org-photos [-h] [-w] directory`
+    org-photos [-h] [-w] directory
 
 `directory` the directory to organize
 
