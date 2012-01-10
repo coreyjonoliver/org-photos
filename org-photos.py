@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# This file is part of org-photos
+
 # Copyright (c) 2011, Corey Oliver, corey.jon.oliver@gmail.com
 
 # Permission to use, copy, modify, and/or distribute this software for
